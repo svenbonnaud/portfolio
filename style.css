@@ -73,3 +73,13 @@ a:hover {
     padding: 1rem;
   }
 }
+.project-card {
+  background-color: #fafafa;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+}
+.project-card h3 {
+  margin-top: 0;
+}
