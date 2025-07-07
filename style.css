@@ -143,14 +143,22 @@ a:hover {
   gap: 1rem;
   justify-content: center;
 }
+
 .project-details img {
+  width: auto;
   max-width: 100%;
-  max-height: 300px;     
-  object-fit: cover;     
-  margin: 1rem auto;    
+  height: auto;
+  max-height: 400px; 
+  margin: 0.5rem;
   display: block;
   border: 1px solid #ccc;
   border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
+.project-details img:hover {
+  transform: scale(1.03);
+  transition: transform 0.3s ease;
+  cursor: zoom-in;
+}
+
 
