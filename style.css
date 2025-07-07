@@ -118,3 +118,21 @@ a:hover {
   white-space: pre-wrap;
   font-size: 0.95rem;
 }
+
+.toggle-btn {
+  background: none;
+  border: none;
+  font-size: 1rem;
+  color: #3498db;
+  cursor: pointer;
+  margin-bottom: 0.5rem;
+  text-align: left;
+}
+
+.toggle-btn:hover {
+  text-decoration: underline;
+}
+
+.project-details {
+  margin-bottom: 1.5rem;
+}
