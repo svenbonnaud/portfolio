@@ -133,6 +133,11 @@ a:hover {
   text-decoration: underline;
 }
 
-.project-details {
+.project {
   margin-bottom: 1.5rem;
+}
+
+.project-details {
+  display: none;
+  margin-top: 0.5rem;
 }
