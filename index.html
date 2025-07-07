@@ -56,10 +56,9 @@ Je travaille principalement sur des projets Rust, Node.js, React et PHP/Symfony,
         </div>
         <div class="terminal-body">
           <code>
-$ ./cat_c fichier.txt<br>
-Hello, world!<br>
-This is the content of the file.<br>
-Another line from fichier.txt
+            $ ./cat_c main.c
+/*<br> * E89 Pedagogical & Technical Lab<br> * project:     cat<br> * created on:  2023-12-01 - 15:05 +0100<br> * 1st author:  sven.bonnaud - sven.bonnaud<br> * description: main<br>*/<br>#include "stu.h"<br>#include <fcntl.h><br>#include <unistd.h><br><br><br>int main(int ac, char **av)<br>{<br>    int fd;<br>    int i;<br><br>    i = 1;<br>    if (ac == 1) {<br>        reader(0);<br>    } else {<br>        while (i < ac) {<br>fd = open(av[i], O_RDONLY);<br>
+      function (i, fd, av);<br>  i += 1;<br>            close(fd);<br>        }<br>    }<br>    return 0;<br>}<br>
           </code>
         </div>
       </div>
