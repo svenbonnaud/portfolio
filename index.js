@@ -4,6 +4,6 @@ function toggleDetails(button) {
 
   details.style.display = isVisible ? 'none' : 'block';
   button.innerHTML = isVisible
-    ? '➕ Réécriture de la commande cat en C'
-    : '➖ Réécriture de la commande cat en C';
+    ? '➕ ' + button.innerHTML.slice(2)
+    : '➖ ' + button.innerHTML.slice(2);
 }
